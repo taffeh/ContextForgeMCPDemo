@@ -1,0 +1,11 @@
+# Secrets
+.env
+.vertex-sa-key.json
+
+# Generated at runtime
+test.sh
+.cloudbuild-contextforge.yaml
+
+# Portkey-specific files (not part of this demo)
+deploy.sh
+docker-compose.yaml

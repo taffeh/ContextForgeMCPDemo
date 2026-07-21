@@ -1,0 +1,14 @@
+{
+  "_comment": "Example MCP client config for Claude Desktop, Cursor, VS Code, etc.",
+  "_instructions": [
+    "Replace YOUR_CONTEXTFORGE_URL with the Cloud Run URL printed by deploy-contextforge.sh",
+    "Replace YOUR_VIRTUAL_SERVER_UUID with the UUID from the Virtual Server detail page in the ContextForge UI",
+    "The endpoint format is: https://<contextforge-url>/servers/<uuid>/mcp",
+    "No authentication headers are required — ContextForge handles auth internally"
+  ],
+  "mcpServers": {
+    "contextforge": {
+      "url": "https://YOUR_CONTEXTFORGE_URL/servers/YOUR_VIRTUAL_SERVER_UUID/mcp"
+    }
+  }
+}
